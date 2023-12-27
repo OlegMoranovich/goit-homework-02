@@ -1,11 +1,205 @@
-pre {
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    color: #2a2a2a;
-    font-size: 16px;
-  }
-  
-  pre::first-letter {
-    font-family: 'Tahoma', serif;
-    font-size: 32px;
-    color: #f44336;
-  }
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+	--color-dairy: #fcfcfc;
+}
+
+/*=============================================
+=            Base Styles            =
+=============================================*/
+body {
+	background-color: var(--color-white);
+	color: var(--color-slate);
+	font-family: 'Roboto', sans-serif;
+}
+
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+/* second lvl title */
+.second-title,
+.third-title,
+.fourth-title {
+color: var(--color-navy-blue);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+/* third lvl title */
+.title,
+.portf-title {
+	color: var(--color-navy-blue);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
+}
+.advantages-txt,
+.section-team-txt,
+.service-txt,
+.footer-txt {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+
+/*=============================================
+=            Header section            =
+=============================================*/
+
+       /* Logo */
+.header-logo {
+	color: var(--color-iris);
+	font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.dark-header-logo {
+	color: var(--color-navy-blue);
+	font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.16;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+     /* Navigation */
+.site-nav .link{
+	color: var(--color-navy-blue);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--color-ocean);
+}
+     /* Contact */
+.tel-mail .link {
+  color: var(--color-slate);
+}
+.tel-mail {
+	font-style: normal;
+	font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.tel-mail .link:hover,
+.tel-mail .link:focus {
+ color: var(--color-ocean);
+}
+/*=============================================
+=            Hero Section            =
+=============================================*/
+.hero-section {
+	background-color: var(--color-navy-blue);
+}
+.hero-title {
+	color: var(--color-white);
+	text-align: center;
+    font-size: 56px;   
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-button {
+	background-color: var(--color-iris);
+	color: var(--color-white);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+text-align: center;
+}
+.hero-button:hover,
+.hero-button:focus{
+background-color: var(--color-ocean);
+}
+.radio-btn {
+	background-color: var(--color-cornflower);
+	color: var(--color-iris);
+}
+.radio-btn:hover,
+.radio-btn:focus {
+	background-color: var(--color-ocean);
+	color: var(--color-white);
+}
+/*=============================================
+=            Team Section            =
+=============================================*/
+.section-team {
+	background-color: var(--color-cloud);
+}
+.team-card {
+	background-color: var(--color-white);
+}
+
+/*=============================================
+=            Footer            =
+=============================================*/
+.footer {
+	background-color: var(--color-navy-blue);
+}
+.logo {
+	color: var(--color-iris);
+	font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.light-logo-txt {
+	color: var(--color-cloud);
+}
+.footer-txt {
+	color: var(--color-cloud);
+}
+
+/*=============================================
+=            Service section            =
+=============================================*/
+.service-txt {
+	color: var(--color-slate);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
